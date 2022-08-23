@@ -1,0 +1,258 @@
+:root{
+    --borderColor: #ddd;
+    --contentTitle: #444;
+}
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: var(--borderColor);
+}
+a{
+    text-decoration: none;
+    color: var(--contentTitle);
+}
+.custom-a{
+    text-decoration: underline;
+}
+
+.marginTop4{
+    margin-top: 4px;
+
+}
+.marginTop5{
+    margin-top: 4px;
+
+}
+.marginTop8{
+    margin-top: 4px;
+
+}
+.marginTop10{
+    margin-top: 4px;
+
+}
+.marginTop30{
+    margin-top: 30px;
+}
+
+.mainContainer{
+    width: 794px;
+    min-height: 500px;
+    height: 1193px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.500);
+    padding: 30px 0px;
+    padding-left: 20px;
+}
+/*HEADER*/
+.header{
+   
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+
+
+.profileImgContainer{
+    width: 200px;
+    height: 200px;
+    
+}
+.profileImgContainer img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #0072b1;
+}
+.profileImgContainer img:hover{
+    transform: scale(1.13);
+
+}
+
+.profileInfosContainer{
+    height: 100%;
+    flex: 1;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    margin-left: 20px;
+    /*background: rgb(54,63,66);
+    background: linear-gradient(76deg, rgba(54,63,66,1) 18%, rgba(26,51,59,1) 37%, rgba(1,53,64,1) 66%, rgba(0,113,135,1) 100%);
+    */
+    /*background: rgb(92,92,92);
+    background: linear-gradient(76deg, rgba(92,92,92,1) 0%, rgba(65,74,77,1) 11%, rgba(28,62,74,1) 28%, rgba(3,44,57,1) 52%, rgba(14,158,186,1) 100%);
+    */
+    background: linear-gradient(229deg, rgba(88,86,86,1) 2%, rgba(65,74,77,1) 12%, rgba(28,62,74,1) 28%, rgba(3,44,57,1) 45%, rgba(14,138,162,1) 100%);
+}
+
+.profileInfoText{
+    color: rgba(255,255,255,0.8)
+
+}
+/*CONTENT*/
+.content{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 15px;
+    display: flex;
+
+}
+/*CONTENT LEFT*/
+.leftContainer{
+    width: 200px;
+    min-height: 100%;
+
+}
+
+
+.contactContainer{
+    border-bottom: 1px solid var(--borderColor);
+    padding: 7px 0px;
+    margin-left: 20px;
+    
+
+}
+
+.contactText:hover{
+    
+    transform: scale(1.1);
+
+}
+.ic{
+    font-size: 21px;
+    padding: 2px 0;
+    padding-left: 50px;
+}
+.contactContainer i{
+    color: #171515;
+}
+
+.contactContainer a{
+    font-size: 14px;
+    color: #333;
+}
+
+#linkedin{
+    color: #0072b1;
+}
+#github{
+    color: #171515;
+}
+
+.leftSectionTitle{
+    font-size: 18px;
+    margin: 25px 0px;
+    margin-top: 35px;
+    margin-left: 5px;
+    border-bottom: 1px solid #171515;
+    padding-bottom: 5px;
+    
+}
+
+
+
+
+.skillsContainer{
+   display:flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+
+.skillBox{
+    background-color: var(--contentTitle);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #032c39;
+    
+
+}
+.skillBox:hover{
+    transform: scale(1.15);
+}
+
+.languageContainer{
+    margin-bottom: 10px ;
+}
+
+.languageTitle{
+    font-size: 16px;
+    color: #171515;
+    margin-bottom: 6px;
+
+}
+.languageTitle:hover{
+    transform: scale(1.04);
+}
+
+.languageDetail{
+    font-size: 13px;
+    color: #999;
+    padding-left: 5px;
+
+
+}
+
+/*CONTENT RIGHT*/
+.rightContainer{
+    min-height: 300px;
+    flex: 1;
+    padding: 0px 20px;
+
+}
+#rightIcons{
+    color: #171515;
+}
+.contentComponent{
+    border-left: 5px solid #0072b1;
+    padding-left: 19px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.compTitle{
+    margin-top: 40px;
+    font-size: 26px;
+    border-bottom: 1px solid var(--contentTitle);
+    color: var(--contentTitle);
+}
+.compItemTitle:hover{
+    transform: scale(1.03);
+}
+.compItemTitle{
+    font-size: 19px;
+    color: var(--contentTitle);
+
+}
+.compItemSubTitle{
+    font-size: 15px ;
+    color: var(--contentTitle);
+}
+.ydyk{
+    font-size: 14px;
+}
+.compItemInfo{
+    font-size: 13px;
+    color: var(--contentTitle);
+}
+
+.compItemDescription{
+    font-size: 14px;
+    color: var(--contentTitle);
+
+}
+.contentUl{
+    padding-left: 30px;
+}
